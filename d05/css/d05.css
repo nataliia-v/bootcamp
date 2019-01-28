@@ -1,0 +1,56 @@
+
+.red {
+  width: 700px;
+  height: 500px;
+  background-image: linear-gradient(#0B486B, #F56217);
+  margin: auto;
+  padding: 20px;
+}
+
+p::after {
+  content: 'OOOO';
+  color: #0B486B;
+  display: inline-block;
+}
+
+p:hover {
+  color: aquamarine;
+  font-size: 30pt;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  color: mediumpurple;
+}
+
+li:first-child {
+  color: #03a9f4;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+}
+
+.boxfloat {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin: 3px;
+}
+
+.redd {
+  background-image: linear-gradient(to bottom left, #0B486B, #F56217);
+  float: left;
+}
+
+.blue {
+  background-image: linear-gradient(to right, #0B486B, #F56217);
+}
+
+
+li::first-line::first-letter {
+  color: orange;
+}

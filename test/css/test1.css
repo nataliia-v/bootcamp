@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 1072px;
+  background-image: url(../img/layer.png);
+  padding-top: 286px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+.elipse {
+  display: inline-block;
+  margin: 0 0 74px 0;
+}
+
+.main-wrapper .head {
+  font-size: 53.86622px;
+  text-transform: uppercase;
+  margin-bottom: 53px;
+}
+.main-wrapper .content {
+  font-size: 15px;
+  margin: 0 0 245px 0;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 160px 15px;
+}
+
+.common-block {
+  max-width: 902px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(60, 60, 60, 255);
+  margin: auto;
+  border: 2px solid black;
+  padding: 20px 160px 53px 160px;
+}
+
+.common-block .name {
+  width: 100%;
+  text-align: center;
+  font-size: 55.94033px;
+}
+
+.text-wide {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text-tight {
+  width: 75%;
+  margin: auto;
+}
+
+.services-wrapper {
+  background-image: url(../img/hand.png);
+  padding-top: 128px;
+  padding-bottom: 109px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.services-block {
+  color: white;
+  border-color: white;
+
+}
+
+.icon {
+  margin-bottom: 41px;
+}
+
+.block-icon {
+  margin-top: 109px;
+}
+
+.name-icon {
+  margin-bottom: 37px;
+}
+
+.line {
+  font-size: 0;
+}
+
+.line:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.line .card-block {
+  display: inline-block;
+  height: 237px;
+  padding: 0 5px;
+  background-clip: content-box;
+}
+
+.line .card-block:first-child {
+  padding-left: 0;
+}
+
+.line .card-block:last-child {
+  padding-right: 0;
+}
+
+.card-title {
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.bg1 {
+  background-image: url("../img/box1.png");
+}
+
+.bg2 {
+  background-image: url("../img/joint.png");
+}
+
+.bg3 {
+  background-image: url("../img/market.png");
+}
+
+.button {
+  height: 55px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+  width: 70%;
+}
+
+.elipse-dark {
+  margin-right: 20px;
+
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.copyright {
+  vertical-align: middle;
+}

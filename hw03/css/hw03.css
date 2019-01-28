@@ -19,7 +19,6 @@ a {
 .navigation li {
   display: inline-block;
   margin: 30px;
-  
 }
 
 .container {
@@ -27,7 +26,7 @@ a {
   width: 960px;
 }
 
-.header, .main, {
+.header, .main {
   width: 100%;
 }
 

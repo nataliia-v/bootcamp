@@ -1,0 +1,411 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  font-family: ﻿Roboto-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+}
+
+.wrapper1 {
+  background-image: linear-gradient(to left, #220740fc, #1d052f85), url(../img/background1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+li {
+  list-style: none;
+}
+
+.box1 {
+  max-width: 771px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 207px;
+}
+
+.navigation-item {
+  display: inline-block;
+  font-size: 13pt;
+  margin-right: 10px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+.logo-name, .wrap-navigation, .logo{
+  display: inline-block;
+}
+
+.logo-name {
+  color: rgba(0, 224, 208, 255);
+  font-size: 30px;
+  font-weight: lighter;
+  vertical-align: top;
+  line-height: 50px;
+}
+
+.logo {
+  float: left;
+  height: 50px;
+}
+
+.img-logo {
+  margin-right: 11px;
+}
+
+.wrap-navigation {
+  float: right;
+  padding-top: 36px;
+}
+
+.head {
+  max-width: 940px;
+  margin: auto auto 183px auto;
+  text-align: center;
+}
+
+.headline {
+  font-size: 32pt;
+  margin-bottom: 21px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.line-block {
+  width: 50px;
+  height: 2px;
+  background-color: rgba(0, 224, 208, 255);
+  margin: auto auto 30px auto;
+}
+
+.text {
+  margin-bottom: 50px;
+  font-size: 14pt;
+}
+
+.button {
+  background-color: Transparent;
+  border: 1px solid rgba(0, 224, 208, 255);
+  cursor: pointer;
+  font-size: 16pt;
+  color: rgba(0, 224, 208, 255);
+  padding: 15px;
+}
+
+.headline2 {
+  font-size: 22pt;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.margin-head {
+  margin-bottom: 28px;
+}
+
+.content {
+  display: inline-block;
+  width: 500px;
+}
+
+.box2 {
+  max-width: 771px;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.pyramid {
+  margin-right: 20px;
+}
+
+.box3 {
+  padding-top: 202px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: auto;
+  text-align: center;
+  background-image: linear-gradient(to left, #220740fc, #1d052f85), url(../img/background2.png)
+}
+
+.play {
+  display: block;
+  margin: auto auto 34px auto;
+}
+
+.play-button {
+  text-align: center;
+  padding-bottom: 202px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.box4 {
+  max-width: 940px;
+  margin: auto;
+  text-align: center;
+  padding: 72px 0 101px 0;
+}
+
+.black {
+  color: black;
+}
+
+.expertise-list {
+  font-size: 0;
+}
+
+.expertise-list>.expertise-item {
+  width: 33%;
+}
+
+.expertise-list>.expertise-item:not(:nth-child(3n)) {
+  border-right: 1px solid lightgray;
+}
+
+.expertise-list>.expertise-item:nth-of-type(-n+3) {
+  border-bottom: 1px solid lightgray;
+}
+
+.expertise-item {
+  width: 100%;
+  padding: 33px;
+  display: inline-block;
+}
+
+.box4>.text {
+  margin-bottom: 18px;
+}
+
+.box4>.headline2 {
+  margin-bottom: 16px;
+}
+
+.box4>.line-block {
+  background-color: lightgray;
+}
+
+.expertise-item>.name {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.expertise-item>.information {
+  color: lightgray;
+  font-size: 14px;
+}
+
+.design::before {
+  content:"";
+  background: url(../img/computer2.png) no-repeat center center;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto auto 35px;
+}
+
+.identity::before {
+  content:"";
+  background: url(../img/brush2.png) no-repeat center center;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto auto 35px;
+}
+
+.mobile::before {
+  content:"";
+  background: url(../img/phone2.png) no-repeat center center;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto auto 35px;
+}
+
+.search::before {
+  content:"";
+  background: url(../img/optimization2.png) no-repeat center center;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto auto 35px;
+}
+
+.game::before {
+  content:"";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: url(../img/game2.png) no-repeat center center;
+  margin: auto auto 35px;
+}
+
+.love::before {
+  content:"";
+  background: url(../img/heart2.png) no-repeat center center;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto auto 35px;
+}
+
+
+.wrapper2 {
+  background-image: linear-gradient(to left, #220740fc, #1d052f85), url(../img/background1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.box5 {
+  padding: 70px 0;
+  text-align: center;
+  margin: auto;
+  max-width: 940px;
+}
+
+.staff {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.card {
+  max-width: 220px;
+}
+
+.photo {
+  background-color: white;
+  height: 229px;
+  width: 220px;
+}
+
+.card>.staff-content {
+  padding: 28px 0;
+  border: 1px solid lightgray;
+  text-transform: uppercase;
+}
+
+.name, .post {
+  display: block;
+}
+
+.box5>.line-block {
+  background-color: lightgray;
+  margin-bottom: 47px;
+}
+
+.box5>.text {
+margin-bottom: 18px;
+}
+
+.box5>.text-join {
+  font-size: 14pt;
+  margin-bottom: 26px;
+}
+
+.box5>.headline2 {
+  margin-bottom: 16px;
+}
+
+.head-box {
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.box6 {
+margin: auto;
+  text-align: center;
+}
+
+.box6>.projects-list {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.projects-list>.project-item {
+  height: 200px;
+  width: 16.667%;
+}
+
+.projects-list>.project-item.first {
+  background-color: gainsboro;
+}
+.projects-list>.project-item.second {
+  background-color: lightgray;
+}
+.projects-list>.project-item.third {
+  background-color: darkgray;
+}
+.projects-list>.project-item.fourth {
+  background-color: gainsboro;
+}
+.projects-list>.project-item.fifth {
+  background-color: darkgrey;
+}
+.projects-list>.project-item.sixth {
+  background-color: lightgray;
+}
+.projects-list>.project-item.seventh {
+  background-color: gainsboro;
+}
+.projects-list>.project-item.eighth {
+  background-color: lightgray;
+}
+.projects-list>.project-item.ninth {
+  background-color: darkgray;
+}
+.projects-list>.project-item.tenth {
+  background-color: gainsboro;
+}
+.projects-list>.project-item.eleventh {
+  background-color: grey;
+}
+.projects-list>.project-item.twelfth {
+  background-color: lightgray;
+}
+
+.box7{
+  max-width: 770px;
+}
+
+.box7>.sign {
+  font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 100pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

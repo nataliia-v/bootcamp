@@ -1,0 +1,79 @@
+* {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px 0 0 0;
+
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+.jasper {
+  background-image: url(https://i.ytimg.com/vi/YCaGYUIfdy4/maxresdefault.jpg);
+}
+.chewie {
+  background-image: url(https://www.lawdit.co.uk/uploads/images/_99735192_gettyimages-459467912.jpg);
+}
+.barkley {
+  background-image: url(https://static.boredpanda.com/blog/wp-content/uploads/2018/04/5acb63d83493f__700-png.jpg)
+}
+
+.name {
+  margin: 0 0 15px 0;
+  text-align: center;
+  letter-spacing: 15px;
+  color: green;
+}
+
+.dog1 {
+  font-family: 'Dancing Script', cursive;
+  margin: 0 0 30px 0;
+}
+.dog2 {
+  font-family: 'Acme', sans-serif;
+}
+.dog3 {
+  font-family: 'Baloo Thambi', cursive;
+}
+
+.about, .parallax {
+  margin: 0 0 20px 0;
+}
+
+.extended {
+  font-style: inherit;
+}
+
+.red {
+  color: red;
+  font-size: 30px;
+}
+
+.blue {
+  color: blue;
+  font-size: 30px;
+}
+
+.yellow {
+  color: yellow;
+  font-size: 30px;
+}
+
+
+
+.barkley {
+  margin: 0 0 50px 0;
+}
