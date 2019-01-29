@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: slateblue;
+}
+
+.containerInner {
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  background-color: #7fd9c7;
+  transition: all 2s ease;
+  top: 0;
+  left: -500px;
+}
+
+.wrapper:hover .containerInner {
+  transform: translate(500px);
+  transition: all 2s ease;
+}
