@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.head {
+  max-width: 1604px;
+  margin: auto;
+  padding: 43px 245px 38px 245px;
+}
+
+.main-nav {
+  display: inline-block;
+  float: right;
+}
+
+.navigation {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation>.item-nav {
+  margin-right: 10px;
+}
+
+.item-nav:hover a {
+  color: #1abc9c;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  font-size: 30px;
+}
+.logo:first-letter {
+  color: #1abc9c;
+}
+
+.photo {
+  color: white;
+  background-image: url("../img/bacground.png");
+  max-width: 1604px;
+  margin: auto;
+  text-align: center;
+  padding-top: 218px;
+  padding-bottom: 284px;
+  position: relative;
+}
+
+.tours {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.tours-info {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.block {
+  width: 104px;
+  height: 104px;
+  background-color: #1abc9c;
+  opacity: 0.6;
+  font-size: 100px;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+}
+
+.block:hover {
+  opacity: 1;
+}
+
+.left-block {
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.right-block {
+  top:50%;
+  right: 15%;
+  transform: translateY(-50%);
+}
+
+.left-block::after {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  content: "";
+  background: url("../img/left.png") no-repeat;
+  width: 25px;
+  height: 40px;
+  left: 50%;
+  top:50%
+}
+
+.right-block::after {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  content: "";
+  background: url("../img/right.png") no-repeat;
+  width: 25px;
+  height: 40px;
+  right: 30%;
+  top:50%;
+}
+
+
+.wrapper-collection {
+  max-width: 1604px;
+  background-color: #e8effc;
+  padding-top: 100px;
+}
+
+.name-block {
+  font-size: 48px;
+  color: rgba(81, 81, 81, 255);
+  text-align: center;
+
+}
+
+.name-block::after {
+  content:"";
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  display: block;
+  margin: 20px auto auto;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  padding: 101px 0 98px 0;
+}
+
+.product-item {
+  width: 255px;
+  height: 322px;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.product-item:last-child {
+  margin-right: 0;
+}
+
+.product-item:hover .product-details .product-name {
+  background-color: #1abc9c;
+}
+.product-item:hover .product-details .price {
+  background-color: #7fd9c7;
+}
+
+.product-item:hover .image-container .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .6);
+}
+
+.product-item .image-container .product-photo {
+  width: 255px;
+  height: 282px;
+  display: block;
+  object-fit: cover;
+}
+
+.product-item .image-container {
+  position: relative;
+  width: 255px;
+  height: 282px;
+}
+
+.product-item .image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+
+
+}
+
+.product-item .product-details {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+}
+
+.product-item .product-details .product-name {
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 100%;
+  padding: 0 15px;
+}
+.product-item .product-details .price {
+  background-color: lightgray;
+  color: white;
+  font-size: 18px;
+  width: 20%;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.menu-cart {
+  width: 166px;
+}
+
+.icon-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.iconBlock {
+  border: 1px solid white;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconBlock:hover {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.cart {
+  border: 1px solid white;
+  padding: 11px 18px 12px 13px;
+  width: 166px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.cart:hover {
+  background-color: #323232;
+  border-color: white;
+}
+
+.cart .cart-img {
+  padding-right: 10px;
+}
+
+.cart .add-cart {
+  color: white;
+  font-size: 14pt;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 37px 0;
+}
+
+.green {
+  color: #1abc9c;
+}
+
+footer {
+  background-color: #323232;
+}
