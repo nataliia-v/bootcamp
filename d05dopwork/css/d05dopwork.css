@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  font-family: 'Exo', sans-serif;
+}
+
+.section1 {
+  max-width: 1489px;
+  margin: auto;
+  text-align: center;
+  background-image: url("../img/background.png");
+  position: relative;
+  padding-top: 138px;
+  overflow:hidden;
+}
+
+.new-item {
+  margin: auto;
+  text-align: center;
+  color: #ff6d6d;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.head-new {
+  text-align: center;
+  margin: auto auto 91px;
+  font-size: 40px;
+}
+
+.content {
+  max-width: 1120px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 184px;
+}
+
+.card {
+  max-width: 342px;
+  display: inline-block;
+}
+
+.pens {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.coffee {
+  position: absolute;
+  bottom: -125px;
+  right: -30px;
+}
+
+.earphones {
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.section2 {
+  max-width: 1489px;
+  text-align: center;
+  position: relative;
+}
+
+.macbook {
+  display: inline-block;
+  max-width: 600px;
+}
+.right-content {
+  display: inline-block;
+  max-width: 492px;
+}
+.about-computer {
+  display: inline-block;
+}
+
+.rectangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
