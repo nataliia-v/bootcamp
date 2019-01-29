@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  background-image: url("../img/background1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 336px;
+}
+
+.navigation-item {
+list-style-type: none;
+  display: inline-block;
+  font-size: 12px;
+  color: rgba(26, 26, 26, 255);
+  text-transform: uppercase;
+  margin: auto 29px auto auto;
+}
+
+.navigation-item:hover a {
+  border-bottom: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation-item:last-child {
+  margin-right: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+}
+
+.navigation-list {
+  padding-top: 64px;
+}
+
+.logo {
+  margin: 0 63px;
+}
+
+.section2 {
+display: flex;
+  justify-content: center;
+}
+
+.background-about {
+  background-image: url("../img/background-about.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  padding-top: 208px;
+  padding-bottom: 192px;
+}
+
+.about-us {
+  font-size: 36pt;
+  color: rgba(1, 1, 1, 255);
+  outline: 4px solid black;
+  padding: 38px 60px;
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.tattoo {
+  padding-top: 91px;
+  padding-bottom: 31px;
+  display:block;
+  text-align: center;
+  margin: auto;
+}
+
+.text-about {
+  width: 50%;
+  padding-left: 85px;
+  padding-right: 127px;
+}
+.text-tattoo {
+  display:block;
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 255);
+  margin-bottom: 32px;
+}
+
+.text-tattoo2 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.section3 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1500px;
+}
+
+.photo-item {
+  width: 250px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.background-team {
+  background-image: url("../img/background-team.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 193px;
+  padding-bottom: 207px;
+}
+.team {
+  font-size: 36pt;
+  color: rgba(1, 1, 1, 255);
+  outline: 4px solid black;
+  padding: 38px 60px;
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.width {
+  width: 33.33%;
+}
+
+
+
+
