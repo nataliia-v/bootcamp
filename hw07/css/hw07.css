@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 940px;
+  text-align: center;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 44px;
+  margin-bottom: 127px;
+}
+.navigation-list {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 480px;
+}
+
+.item-nav {
+  text-decoration: none;
+  color: #323232;
+}
+
+.navigation-list .item-nav:hover {
+  color: #fed136;
+}
+
+.name-block {
+  font-size: 40px;
+  color: rgba(34, 34, 34, 255);
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.last-h2 {
+  font-size: 16pt;
+  color: rgba(119, 119, 119, 255);
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 274px;
+}
+
+.container-icon {
+  width: 68px;
+  height: 67px;
+  position: relative;
+  text-align: center;
+  margin: auto auto 27px;
+}
+
+.container-icon .icon-circle {
+  width: 68px;
+  height: 67px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  left:0;
+
+}
+.container-icon .inside-icon {
+  position: absolute;
+  top: 11px;
+  left: 13px;
+}
+
+.inside-icon-locked {
+  position: absolute;
+  top: 11px;
+  left: 19px;
+}
+
+.card-name {
+  font-size: 18px;
+  color: rgba(34, 34, 34, 255);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: rgba(119, 119, 119, 255);
+  text-align: center;
+  margin-bottom: 115px;
+}
+
+.background {
+  background-color: #222222;
+  position: relative;
+}
+
+.background-image {
+  background-image: url("../img/background-img.png");
+  width: 614px;
+  height: 537px;
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+
+.white {
+  color: white;
+  padding-top: 115px;
+}
+
+.form {
+  padding-bottom: 115px;
+}
+
+.form-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+}
+
+.fields-list {
+  flex: 1;
+}
+
+.field {
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  padding: 0 20px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+}
+
+.field:valid, .textarea:valid {
+  border-width: 2px;
+  border-color: green;
+}
+
+.field:invalid, .textarea:invalid  {
+  border-width: 2px;
+  border-color: red;
+}
+
+.field+.field {
+  margin-top: 30px;
+}
+
+.fields-list+.textarea{
+  margin-left: 30px;
+}
+
+.textarea {
+  padding: 20px;
+  flex: 1;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+button {
+  width: 240px;
+  height: 66px;
+  background-color: #fed136;
+  color: white;
+  font-size: 18px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
