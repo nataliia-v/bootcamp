@@ -105,14 +105,7 @@ header {
   position: relative;
 }
 
-.background-image {
-  background-image: url("../img/background-img.png");
-  width: 614px;
-  height: 537px;
-  position: absolute;
-  bottom:0;
-  right: 0;
-}
+
 
 .white {
   color: white;
@@ -176,4 +169,15 @@ button {
   border-radius: 2px;
   text-transform: uppercase;
 }
+
+
+.background-test {
+  background-image: url("../img/background-img.png");
+  width: 614px;
+  height: 537px;
+  bottom:0;
+  right: 0;
+}
+
+
 
