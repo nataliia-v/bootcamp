@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*  html только для десктопа */
+
+#blue {
+  background-color: #0B486B;
+  height: 100vh;
+  width: 100%;
+}
+
+#red {
+  background-color: red;
+  height: 100vh;
+  width: 100%;
+}
+#green {
+  background-color: #1abc9c;
+  height: 100vh;
+  width: 100%;
+
+}
+
+
+.container {
+  width:700px;
+  display: flex;
+  margin: auto;
+}
+
+.card-2 {
+  width: 300px;
+  height:200px;
+  background-color: #f9bd87;
+  display: none;
+}
+
+.card-1 {
+  width: 300px;
+  height:200px;
+  background-color: #F56217;
+}
+
+#dropDown:checked ~ .card-2 {
+  display: block;
+}
+
+#dropDown {
+  display: none;
+}
