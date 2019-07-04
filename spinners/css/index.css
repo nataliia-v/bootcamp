@@ -1,12 +1,9 @@
 body {
     background-color: #ffb250;
 }
-
-
-
 /*6 spinner*/
 
-.spinner6 {
+.loader-6 {
     margin: 100px auto;
     width: 40px;
     height: 40px;
@@ -15,7 +12,7 @@ body {
     animation: sk-rotate 2.0s infinite linear;
 }
 
-.dot1, .dot2 {
+.dot-1, .dot-2 {
     width: 60%;
     height: 60%;
     display: inline-block;
@@ -26,12 +23,11 @@ body {
     animation: sk-bounce 2.0s infinite ease-in-out;
 }
 
-.dot2 {
+.dot-2 {
     top: auto;
     bottom: 0;
     animation-delay: -1.0s;
 }
-
 
 @keyframes sk-rotate { 100% { transform: rotate(360deg);}}
 
